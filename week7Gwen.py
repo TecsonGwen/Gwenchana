@@ -117,7 +117,7 @@ def main():
     #convert to JSON
     json_output = to_json(ROUTER_CONFIG)
     print("\n2. JSON Format:")
-    print("-" * 40)
+    print("-" * 40)    
     print(json_output)
 
       #convert to YAML
