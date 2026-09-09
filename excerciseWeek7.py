@@ -39,3 +39,17 @@ json_output = json.dumps(router_config, indent=2)
 
 print(json_output)
 print()
+
+#===========================================================================
+# EXERCISE 2: Convert Python dict -> YAML
+#===========================================================================
+#Hint: Convert a python dict to a YAML String
+
+print("=== EXERCISE 2: Convert to YAML ===")
+
+# Fill in the BLANK: use to convert router_config to a YAML
+
+yaml_output = yaml.dump(router_config, default_flow_style=False)
+
+print(yaml_output)
+print()
